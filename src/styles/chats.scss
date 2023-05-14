@@ -16,7 +16,7 @@
     height: 2.5em;
     border-radius: 50%;
     // background-image: url("../images/1607460922343.jpg");
-    background-image: url('../images/avatar.png');
+    background-image: url('../images/jack-eaves-muruan-temple-02.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -25,7 +25,7 @@
     margin-left: 1em;
   }
   .button.logout {
-    background-image: url("../images/logout-box-r-white.svg");
+    background-image: url('../images/logout-box-r-line\ \(1\).png');
   }
 }
 
@@ -53,10 +53,10 @@
     }
   }
   &__button_on {
-    background-image: url("../images/search-line.svg");
+    background-image: url('../images/logout-box-r-line.svg');
   }
   &__button_of {
-    background-image: url("../images/arrow-left-line.svg");
+    background-image: url('../images/close-line-black.svg');
   }
   &__input {
     color: inherit;
@@ -99,7 +99,7 @@
     width: 3em;
     height: 3em;
     border-radius: 50%;
-    background-image: url("../images/avatar.png");
+    background-image: url("");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -142,10 +142,10 @@
         background-size: contain;
         background-position: center;
         &.unread {
-          background-image: url("../images/check-double-line_gray.svg");
+          background-image: url('../images/check-double-line_gray.svg');
         }
         &.viewed {
-          background-image: url("../images/check-double-line_green.svg");
+          background-image: url('../images/eye-line.svg');
         }
       }
       .preview__text {
