@@ -4,7 +4,6 @@
 import Sidebar from "./Sidebar";
 import Templates from './Templates';
 import Encryption from "./Encryption";
-import BotRequests from "./BotRequests";
 import EmojiHandler from "./EmojiHandler";
 import MediaHandler from "./MediaHandler";
 import FileInputHandler from "./FileInputHandler";
