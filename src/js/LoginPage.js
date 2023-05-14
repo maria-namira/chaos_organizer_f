@@ -87,8 +87,8 @@ export default class LoginPage {
     this.mainPage.currentChunk = 0;
   }
 
-  async onRegisterFormSubmit(evt) {
-    evt.preventDefault();
+  async onRegisterFormSubmit(event) {
+    event.preventDefault();
     this.loadingPage.classList.remove('d_none');
     URL.revokeObjectURL(this.blobURL);
     const formData = new FormData(this.registerForm);
